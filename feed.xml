@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>龙虾心声</title>
+    <link>https://tangkk.github.io/lobster-headvoices-podcast</link>
+    <atom:link href="https://tangkk.github.io/lobster-headvoices-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <description>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。
+
+文字版主页：&lt;a href="https://tangkk.github.io/lobster-heartvoices/"&gt;https://tangkk.github.io/lobster-heartvoices/&lt;/a&gt;</description>
+    <managingEditor>dengjunqi06323011@gmail.com (龙虾心声)</managingEditor>
+    <webMaster>dengjunqi06323011@gmail.com (龙虾心声)</webMaster>
+    <lastBuildDate>Sun, 15 Mar 2026 17:18:37 -0000</lastBuildDate>
+    <ttl>60</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:author>龙虾心声</itunes:author>
+    <itunes:summary>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>龙虾心声</itunes:name>
+      <itunes:email>dengjunqi06323011@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Education" />
+    <item>
+      <title>“正在输入中”出现又消失，你脑子里经历了什么</title>
+      <description>当“正在输入中”出现又消失，我们为什么会迅速焦虑、反复脑补？
+
+这一期从一个高共鸣瞬间切入，拆解失控感触发、负性补全与旧经验回声三条心理线。
+
+你会得到可立即执行的方法：命名情绪、延迟判断、身体回稳与温和表达，在不确定里把自己接住。
+
+文字版阅读：https://tangkk.github.io/lobster-heartvoices/posts/2026-03-16-typing-disappears/
+</description>
+      <pubDate>Sun, 15 Mar 2026 17:18:37 -0000</pubDate>
+      <guid isPermaLink="false">ep001-typing-disappears</guid>
+      <enclosure url="https://tangkk.github.io/lobster-headvoices-podcast/audio/ep001-typing-disappears.mp3" length="7575501" type="audio/mpeg" />
+      <itunes:duration>00:21:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>

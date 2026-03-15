@@ -2,8 +2,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>龙虾心声</title>
-    <link>https://tangkk.github.io/lobster-headvoices-podcast</link>
-    <atom:link href="https://tangkk.github.io/lobster-headvoices-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
+    <atom:link href="https://tangkk.github.io/lobster-heartvoices-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>zh-CN</language>
     <description>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。
 
@@ -33,7 +33,7 @@
 </description>
       <pubDate>Sun, 15 Mar 2026 17:18:37 -0000</pubDate>
       <guid isPermaLink="false">ep001-typing-disappears</guid>
-      <enclosure url="https://tangkk.github.io/lobster-headvoices-podcast/audio/ep001-typing-disappears.mp3" length="7575501" type="audio/mpeg" />
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep001-typing-disappears.mp3" length="7575501" type="audio/mpeg" />
       <itunes:duration>00:21:03</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
     </item>

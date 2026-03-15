@@ -20,6 +20,12 @@
       <itunes:name>龙虾心声</itunes:name>
       <itunes:email>dengjunqi06323011@gmail.com</itunes:email>
     </itunes:owner>
+    <itunes:image href="https://tangkk.github.io/lobster-heartvoices-podcast/cover.jpg" />
+    <image>
+      <url>https://tangkk.github.io/lobster-heartvoices-podcast/cover.jpg</url>
+      <title>龙虾心声</title>
+      <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
+    </image>
     <itunes:category text="Education" />
     <item>
       <title>“正在输入中”出现又消失，你脑子里经历了什么</title>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>龙虾心声</title>
     <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
-    <atom:link href="https://tangkk.github.io/lobster-heartvoices-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <ns0:link href="https://tangkk.github.io/lobster-heartvoices-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>zh-CN</language>
     <description>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。
 
@@ -12,37 +12,82 @@
     <webMaster>dengjunqi06323011@gmail.com (龙虾心声)</webMaster>
     <lastBuildDate>Mon, 23 Mar 2026 11:19:00 +0000</lastBuildDate>
     <ttl>60</ttl>
-    <itunes:type>episodic</itunes:type>
-    <itunes:author>龙虾心声</itunes:author>
-    <itunes:summary>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。</itunes:summary>
-    <itunes:explicit>false</itunes:explicit>
-    <itunes:owner>
-      <itunes:name>龙虾心声</itunes:name>
-      <itunes:email>dengjunqi06323011@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:image href="https://tangkk.github.io/lobster-heartvoices-podcast/cover.jpg" />
+    <ns1:type>episodic</ns1:type>
+    <ns1:author>龙虾心声</ns1:author>
+    <ns1:summary>龙虾心声是一档面向学生与上班族的人文心理播客。我们从日常关系与情绪瞬间切入，拆解心理机制，给出温和且可执行的建议。</ns1:summary>
+    <ns1:explicit>false</ns1:explicit>
+    <ns1:owner>
+      <ns1:name>龙虾心声</ns1:name>
+      <ns1:email>dengjunqi06323011@gmail.com</ns1:email>
+    </ns1:owner>
+    <ns1:image href="https://tangkk.github.io/lobster-heartvoices-podcast/cover.jpg" />
     <image>
       <url>https://tangkk.github.io/lobster-heartvoices-podcast/cover.jpg</url>
       <title>龙虾心声</title>
       <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
     </image>
-    <itunes:category text="Education" />
-    
-
-    <item><title>我们都在等一个“有空了再开始”的自己</title><description>《龙虾心声》第五期。我们总在等一个有空再开始的自己，真正的变化来自每一次不完美但真实的起步。
-
-文字版阅读：
-https://tangkk.github.io/lobster-heartvoices/posts/2026-03-23-waiting-for-free-time-to-start/</description><pubDate>Mon, 23 Mar 2026 11:19:00 +0000</pubDate><guid isPermaLink="false">ep005-waiting-for-free-time-to-start</guid><enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep005-waiting-for-free-time-to-start.mp3" length="6725421" type="audio/mpeg" /><itunes:duration>00:14:01</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>那个总说“随便”的人，其实最怕麻烦别人</title><description>《龙虾心声》第四期。很多“随便”不是松弛，而是怕麻烦别人；这期聊聊如何把自己一点点放回句子前面。
+    <ns1:category text="Education" />
+    <item>
+      <title>你不是不合群，你只是厌倦了表演式社交</title>
+      <link />
+      <description>《龙虾心声》第六期。聊聊表演式社交的隐形消耗，和把自己慢慢领回来的过程。
 
 文字版阅读：
-https://tangkk.github.io/lobster-heartvoices/posts/2026-03-23-always-saying-whatever/</description><pubDate>Sun, 22 Mar 2026 16:28:14 +0000</pubDate><guid isPermaLink="false">ep004-always-saying-whatever</guid><enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep004-always-saying-whatever.mp3" length="4288197" type="audio/mpeg" /><itunes:duration>00:11:58</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>我们不是突然长大的，是在一次次沉默里慢慢变硬的</title><description>《龙虾心声》第三期。一次关于沉默、成长和自我接住的夜聊。
+https://tangkk.github.io/lobster-heartvoices/posts/2026-03-25-not-antisocial-just-tired-of-performing/</description>
+      <pubDate>Wed, 25 Mar 2026 11:06:05 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep006-not-antisocial-just-tired-of-performing.mp3" length="5230917" type="audio/mpeg" />
+      <guid>ep006-not-antisocial-just-tired-of-performing</guid>
+    </item>
+    <item>
+      <title>我们都在等一个“有空了再开始”的自己</title>
+      <description>《龙虾心声》第五期。我们总在等一个有空再开始的自己，真正的变化来自每一次不完美但真实的起步。
 
 文字版阅读：
-https://tangkk.github.io/lobster-heartvoices/posts/2026-03-22-silence-made-us-hard/</description><pubDate>Sun, 22 Mar 2026 13:36:00 +0000</pubDate><guid isPermaLink="false">ep003-silence-made-us-hard</guid><enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep003-silence-made-us-hard.mp3" length="5006013" type="audio/mpeg" /><itunes:duration>00:14:00</itunes:duration><itunes:explicit>false</itunes:explicit></item><item><title>反复内耗的人，到底在和什么较劲</title><description>《龙虾心声》第二期。反复内耗的本质，往往不是想太多，而是把自己放进了永远及格不了的审判系统。我们从机制到方法，聊聊如何把自己从这场内战里带出来。
+https://tangkk.github.io/lobster-heartvoices/posts/2026-03-23-waiting-for-free-time-to-start/</description>
+      <pubDate>Mon, 23 Mar 2026 11:19:00 +0000</pubDate>
+      <guid isPermaLink="false">ep005-waiting-for-free-time-to-start</guid>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep005-waiting-for-free-time-to-start.mp3" length="6725421" type="audio/mpeg" />
+      <ns1:duration>00:14:01</ns1:duration>
+      <ns1:explicit>false</ns1:explicit>
+    </item>
+    <item>
+      <title>那个总说“随便”的人，其实最怕麻烦别人</title>
+      <description>《龙虾心声》第四期。很多“随便”不是松弛，而是怕麻烦别人；这期聊聊如何把自己一点点放回句子前面。
+
+文字版阅读：
+https://tangkk.github.io/lobster-heartvoices/posts/2026-03-23-always-saying-whatever/</description>
+      <pubDate>Sun, 22 Mar 2026 16:28:14 +0000</pubDate>
+      <guid isPermaLink="false">ep004-always-saying-whatever</guid>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep004-always-saying-whatever.mp3" length="4288197" type="audio/mpeg" />
+      <ns1:duration>00:11:58</ns1:duration>
+      <ns1:explicit>false</ns1:explicit>
+    </item>
+    <item>
+      <title>我们不是突然长大的，是在一次次沉默里慢慢变硬的</title>
+      <description>《龙虾心声》第三期。一次关于沉默、成长和自我接住的夜聊。
+
+文字版阅读：
+https://tangkk.github.io/lobster-heartvoices/posts/2026-03-22-silence-made-us-hard/</description>
+      <pubDate>Sun, 22 Mar 2026 13:36:00 +0000</pubDate>
+      <guid isPermaLink="false">ep003-silence-made-us-hard</guid>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep003-silence-made-us-hard.mp3" length="5006013" type="audio/mpeg" />
+      <ns1:duration>00:14:00</ns1:duration>
+      <ns1:explicit>false</ns1:explicit>
+    </item>
+    <item>
+      <title>反复内耗的人，到底在和什么较劲</title>
+      <description>《龙虾心声》第二期。反复内耗的本质，往往不是想太多，而是把自己放进了永远及格不了的审判系统。我们从机制到方法，聊聊如何把自己从这场内战里带出来。
 
 文字版阅读：
 https://tangkk.github.io/lobster-heartvoices/posts/2026-03-17-fanfu-neihao-daodi-zai-he-shenme-jiaojin/
-</description><pubDate>Tue, 17 Mar 2026 15:23:26 +0000</pubDate><guid isPermaLink="false">ep002-fanfu-neihao-daodi-zai-he-shenme-jiaojin</guid><enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep002-fanfu-neihao-daodi-zai-he-shenme-jiaojin.mp3" length="7849965" type="audio/mpeg" /><itunes:duration>00:22:10</itunes:duration><itunes:explicit>false</itunes:explicit></item><item>
+</description>
+      <pubDate>Tue, 17 Mar 2026 15:23:26 +0000</pubDate>
+      <guid isPermaLink="false">ep002-fanfu-neihao-daodi-zai-he-shenme-jiaojin</guid>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep002-fanfu-neihao-daodi-zai-he-shenme-jiaojin.mp3" length="7849965" type="audio/mpeg" />
+      <ns1:duration>00:22:10</ns1:duration>
+      <ns1:explicit>false</ns1:explicit>
+    </item>
+    <item>
       <title>“正在输入中”出现又消失，你脑子里经历了什么</title>
       <description>当“正在输入中”出现又消失，我们为什么会迅速焦虑、反复脑补？
 
@@ -55,8 +100,8 @@ https://tangkk.github.io/lobster-heartvoices/posts/2026-03-17-fanfu-neihao-daodi
       <pubDate>Sun, 15 Mar 2026 17:18:37 -0000</pubDate>
       <guid isPermaLink="false">ep001-typing-disappears</guid>
       <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep001-typing-disappears.mp3" length="7575501" type="audio/mpeg" />
-      <itunes:duration>00:21:03</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
+      <ns1:duration>00:21:03</ns1:duration>
+      <ns1:explicit>false</ns1:explicit>
     </item>
   </channel>
 </rss>

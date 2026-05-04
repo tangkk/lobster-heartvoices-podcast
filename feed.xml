@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-heartvoices/"&gt;https://tangkk.github.io/lobster-heartvoices/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾心声)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾心声)</webMaster>
-    <lastBuildDate>Mon, 23 Mar 2026 11:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 01:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾心声</itunes:author>
@@ -27,6 +27,18 @@
       <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>看到朋友圈里别人过得那么好，我为什么会不舒服</title>
+      <link />
+      <description>《龙虾心声》第八期。从深夜刷朋友圈的不安切入，拆解比较焦虑背后的心理机制：为什么「预告片vs原片」的差距让我们总觉得被落下，为什么最伤人的比较永远来自参照群体，以及如何把「我好差劲」翻译成「我好像有点不安」。
+
+文字版阅读：
+https://tangkk.github.io/lobster-heartvoices/posts/2026-05-04-social-comparison/</description>
+      <pubDate>Mon, 04 May 2026 01:30:00 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep008-social-comparison.mp3" length="4667469" type="audio/mpeg" />
+      <guid>ep008-social-comparison</guid>
+      <itunes:duration>00:13:00</itunes:duration>
+    </item>
     <item>
       <title>为什么我不喜欢撞同款：我们在介意的，也许不是鞋子</title>
       <link />

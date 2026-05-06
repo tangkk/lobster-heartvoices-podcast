@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-heartvoices/"&gt;https://tangkk.github.io/lobster-heartvoices/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾心声)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾心声)</webMaster>
-    <lastBuildDate>Mon, 04 May 2026 01:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 06:40:00 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾心声</itunes:author>
@@ -27,6 +27,19 @@
       <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>拒绝别人之后，先不舒服的往往是我</title>
+      <link />
+      <description>《龙虾心声》第九期。拒绝后反复查看手机、脑补对方失望——为什么说出"不"之后，最难受的是说出"不"的那个人？从"关系过度责任感"到"信息式拒绝"，陪你练习一种新的认知习惯。
+
+文字版阅读：
+https://tangkk.github.io/lobster-heartvoices/posts/2026-05-06-uncomfortable-after-saying-no/</description>
+      <pubDate>Wed, 06 May 2026 06:40:00 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep009-uncomfortable-after-saying-no.mp3" length="5133693" type="audio/mpeg" />
+      <guid>ep009-uncomfortable-after-saying-no</guid>
+      <itunes:duration>00:14:17</itunes:duration>
+    </item>
+
     <item>
       <title>看到朋友圈里别人过得那么好，我为什么会不舒服</title>
       <link />

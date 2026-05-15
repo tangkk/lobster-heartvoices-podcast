@@ -10,7 +10,7 @@
 文字版主页：&lt;a href="https://tangkk.github.io/lobster-heartvoices/"&gt;https://tangkk.github.io/lobster-heartvoices/&lt;/a&gt;</description>
     <managingEditor>dengjunqi06323011@gmail.com (龙虾心声)</managingEditor>
     <webMaster>dengjunqi06323011@gmail.com (龙虾心声)</webMaster>
-    <lastBuildDate>Wed, 06 May 2026 06:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 09:01:12 +0000</lastBuildDate>
     <ttl>60</ttl>
     <itunes:type>episodic</itunes:type>
     <itunes:author>龙虾心声</itunes:author>
@@ -27,6 +27,19 @@
       <link>https://tangkk.github.io/lobster-heartvoices-podcast</link>
     </image>
     <itunes:category text="Education" />
+    <item>
+      <title>收到消息不想回，但不回又有负罪感</title>
+      <link />
+      <description>《龙虾心声》第十期。从手机红点、迟迟不回、回了又心虚的日常瞬间切入，聊“即时回应压力”背后的心理机制：为什么不想回消息不一定是冷漠，而可能是社交电量不足；为什么负罪感常常来自“好人标准”；以及关系里真正需要的，未必是秒回，而是可预期的真诚。
+
+文字版阅读：
+https://tangkk.github.io/lobster-heartvoices/posts/2026-05-15-message-reply-guilt/</description>
+      <pubDate>Fri, 15 May 2026 09:01:12 +0000</pubDate>
+      <enclosure url="https://tangkk.github.io/lobster-heartvoices-podcast/audio/ep010-message-reply-guilt.mp3" length="5275341" type="audio/mpeg" />
+      <guid>ep010-message-reply-guilt</guid>
+      <itunes:duration>00:14:40</itunes:duration>
+    </item>
+
     <item>
       <title>拒绝别人之后，先不舒服的往往是我</title>
       <link />

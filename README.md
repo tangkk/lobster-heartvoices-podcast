@@ -11,14 +11,17 @@ RSS and audio hosting for 龙虾心声。
 
 ## 内容工作流
 
-选题与文字先在对话中讨论、打磨并定稿；**定稿之前不进入 GitHub 发布流程**。定稿后再生成音频并发布 Podcast，同时同步对应文字版。
+选题与文字先在对话中讨论、打磨；写作阶段就按 TTS-ready 标准处理。**用户确认的定稿就是 canonical 稿，同时直接用于文字版和 TTS。定稿之前不进入 GitHub 发布流程。**
 
-## TTS Guidelines
+## Canonical 稿 / TTS-ready Guidelines
 
-- canonical 文字稿首先服务人类阅读，不为 TTS 牺牲可读性；TTS transcript 只从原稿派生。
-- `scripts/prepare_tts_text.py` 只做高确定性的格式与朗读转换；专有名词统一放在 `scripts/pronunciation.json`。
+- **定稿本身必须 TTS-ready，不再派生另一份改写稿。**
+- 像一对一聊天：自然短句，一句话尽量只讲一个意思；心理机制也要讲成人真正会说的话。
+- 少用括号、分号和连续破折号；数字、英文、人名等在定稿时就处理成自然可朗读的写法。
+- 不为了机器牺牲文字质感；目标是同一份稿既好读，也能自然地说出来。
 - 本节目朗读应**温和、稍慢、接近一对一说话**，避免心理咨询师腔和刻意煽情。
-- 多用自然短句，让解释心理机制的段落仍像人在聊天。
-- 发布前人耳抽检人名、英文、数字和断句。
+- 生成音频后人耳抽检人名、英文、数字和断句；有问题优先修改 canonical 稿再重新生成。
 
-README 作为长期 editorial / TTS memory，未来 agent 应先遵循这里的规则。
+`scripts/pronunciation.json` 只用于少量 provider 特有发音 workaround；`scripts/prepare_tts_text.py` 是可选辅助工具，不属于标准稿件转换流程。
+
+README 作为长期 editorial / TTS memory，未来 agent 在写稿阶段就应遵循这里的规则。

@@ -1,0 +1,42 @@
+name: Diagnose EP011 Publish
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/diag-ep011-publish.yml'
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    env:
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_PUBLIC_URL: ${{ secrets.R2_PUBLIC_URL }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check secret presence
+        shell: bash
+        run: |
+          for v in R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY R2_ENDPOINT R2_BUCKET R2_PUBLIC_URL; do
+            if [ -n "${!v}" ]; then echo "$v=present"; else echo "$v=MISSING"; fi
+          done
+      - name: Check public R2 object
+        shell: bash
+        run: |
+          URL='https://pub-e2d65fa7f70240878f2e556592826485.r2.dev/heartvoices/ep011-friends-drift-apart.mp3'
+          code=$(curl -L -sS -o /dev/null -w '%{http_code}' -I "$URL" || true)
+          echo "HEAD status=$code"
+          range=$(curl -L -sS -o /dev/null -w '%{http_code}' -H 'Range: bytes=0-0' "$URL" || true)
+          echo "Range status=$range"
+      - name: Check feed state
+        shell: bash
+        run: |
+          if grep -q 'ep011-friends-drift-apart' feed.xml; then echo 'feed=contains-ep011'; else echo 'feed=missing-ep011'; fi

@@ -12,3 +12,13 @@ RSS and audio hosting for 龙虾心声。
 ## 内容工作流
 
 选题与文字先在对话中讨论、打磨并定稿；**定稿之前不进入 GitHub 发布流程**。定稿后再生成音频并发布 Podcast，同时同步对应文字版。
+
+## TTS Guidelines
+
+- canonical 文字稿首先服务人类阅读，不为 TTS 牺牲可读性；TTS transcript 只从原稿派生。
+- `scripts/prepare_tts_text.py` 只做高确定性的格式与朗读转换；专有名词统一放在 `scripts/pronunciation.json`。
+- 本节目朗读应**温和、稍慢、接近一对一说话**，避免心理咨询师腔和刻意煽情。
+- 多用自然短句，让解释心理机制的段落仍像人在聊天。
+- 发布前人耳抽检人名、英文、数字和断句。
+
+README 作为长期 editorial / TTS memory，未来 agent 应先遵循这里的规则。

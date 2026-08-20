@@ -40,7 +40,7 @@ jobs:
         shell: bash
         run: |
           if grep -q 'ep011-friends-drift-apart' feed.xml; then echo 'feed=contains-ep011'; else echo 'feed=missing-ep011'; fi
-      - name: Inspect original publish run
+      - name: Inspect fixed publish run
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
@@ -48,5 +48,5 @@ jobs:
           curl -fsSL \
             -H "Authorization: Bearer $GH_TOKEN" \
             -H 'Accept: application/vnd.github+json' \
-            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs?head_sha=657cb051b5e3ed0e3465811e6a21ae179122625c&per_page=20" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs?head_sha=f55e149d31cbf08945af3963260243f7ebf68b84&per_page=20" \
             | python -c "import sys,json; d=json.load(sys.stdin); [print(r['id'], r['name'], r['status'], r.get('conclusion'), r['event']) for r in d.get('workflow_runs',[])]"

@@ -66,18 +66,8 @@ jobs:
           AUDIO='approved/friends-drift-apart-preview.mp3'
           test -s "$AUDIO" || { echo 'Approved audio missing or empty'; exit 1; }
           AUDIO_SECONDS=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 "$AUDIO")
-          python - "$AUDIO_SECONDS" <<'PY'
-          import sys
-          seconds=float(sys.argv[1])
-          if seconds <= 1:
-              raise SystemExit('Invalid duration')
-          print(f'validated duration: {seconds:.3f}s')
-          PY
-          DURATION=$(python - "$AUDIO_SECONDS" <<'PY'
-          import sys
-          s=round(float(sys.argv[1]))
-          print(f'{s//3600:02d}:{(s%3600)//60:02d}:{s%60:02d}')
-          PY
+          python -c 'import sys; s=float(sys.argv[1]); assert s > 1; print(f"validated duration: {s:.3f}s")' "$AUDIO_SECONDS"
+          DURATION=$(python -c 'import sys; s=round(float(sys.argv[1])); print(f"{s//3600:02d}:{(s%3600)//60:02d}:{s%60:02d}")' "$AUDIO_SECONDS")
           test "$DURATION" != '00:00:00' || { echo 'Invalid zero duration'; exit 1; }
           echo "duration=$DURATION" >> "$GITHUB_OUTPUT"
           stat -c 'approved bytes=%s' "$AUDIO"

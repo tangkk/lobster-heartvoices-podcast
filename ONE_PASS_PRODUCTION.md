@@ -33,13 +33,15 @@
 
 ## 6. 文字版单独 VERIFY
 - source commit 不等于线上已发布。
+- **文字版正文必须逐字使用最终批准的 canonical 口播稿原文，禁止摘要、改写、二次生成或删节。** 网页只允许额外增加 front matter、音频播放器、备用音频链接等展示层内容。
+- 发布前必须验证 `web_article_body == approved_canonical_text`；不一致直接 fail closed。
 - `draft: false`，播放器与 enclosure 指向同一个 R2 object。
 - Hugo front matter `date` 不得晚于实际 build 时间；建议实际当前时间或安全回拨 1–2 分钟，避免被 Hugo 当 future content 跳过。
 - VERIFY：source entry → Pages deployment success → article URL → 首页/列表 entry。
 - source 正确但 Pages 未更新时只安全 retrigger Pages，不重复文章/Podcast 发布。
 
 ## 7. 最终 VERIFY
-`canonical ✓ → preview artifact ✓ → audio QA ✓ → approved SHA ✓ → merge ✓ → R2 ✓ → podcast RSS ✓ → duration/length ✓ → text source ✓ → Pages ✓ → online article/list ✓`
+`canonical ✓ → preview artifact ✓ → audio QA ✓ → approved SHA ✓ → merge ✓ → R2 ✓ → podcast RSS ✓ → duration/length ✓ → text source = canonical verbatim ✓ → Pages ✓ → online article/list ✓`
 
 Workflow success 不是最终成功定义；生产端实际可见且 metadata 一致才算成功。
 
